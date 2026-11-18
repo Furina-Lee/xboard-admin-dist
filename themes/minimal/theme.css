@@ -1,0 +1,48 @@
+/* HSL channels consumed by the existing Shadcn/Tailwind components. */
+:root[data-admin-theme="minimal"] {
+  --admin-font: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --admin-card-shadow: 0 1px 2px hsl(163 24% 17% / .06), 0 8px 24px hsl(163 24% 17% / .04);
+  --admin-enter-duration: 360ms;
+  --admin-transition-duration: 170ms;
+  --background: 150 22% 97%;
+  --foreground: 164 29% 14%;
+  --card: 0 0% 100%;
+  --card-foreground: var(--foreground);
+  --popover: var(--card);
+  --popover-foreground: var(--foreground);
+  --primary: 163 69% 26%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 155 25% 92%;
+  --secondary-foreground: 164 29% 21%;
+  --muted: 153 18% 93%;
+  --muted-foreground: 164 13% 38%;
+  --accent: 155 39% 91%;
+  --accent-foreground: 164 55% 22%;
+  --destructive: 0 67% 45%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 155 18% 86%;
+  --input: 155 16% 74%;
+  --ring: 163 69% 29%;
+  --radius: .75rem;
+}
+
+:root[data-admin-theme="minimal"].dark {
+  --admin-card-shadow: 0 1px 2px hsl(160 25% 5% / .4);
+  --background: 163 25% 9%;
+  --foreground: 153 28% 94%;
+  --card: 163 21% 13%;
+  --popover: 163 20% 15%;
+  --primary: 153 56% 69%;
+  --primary-foreground: 163 44% 11%;
+  --secondary: 161 18% 20%;
+  --secondary-foreground: var(--foreground);
+  --muted: 161 18% 19%;
+  --muted-foreground: 154 16% 71%;
+  --accent: 157 28% 22%;
+  --accent-foreground: 152 56% 83%;
+  --destructive: 0 67% 47%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 160 16% 25%;
+  --input: 160 14% 42%;
+  --ring: 153 56% 69%;
+}

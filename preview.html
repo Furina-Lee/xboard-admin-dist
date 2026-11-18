@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN" data-admin-theme="minimal">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Xboard 后台主题预览</title>
+  <link rel="stylesheet" href="./themes/base.css">
+  <link rel="stylesheet" href="./themes/minimal/theme.css">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    main { max-width: 66rem; margin: auto; padding: clamp(1.25rem, 5vw, 4rem); }
+    header { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    h1 { font-size: clamp(1.75rem, 4vw, 2.5rem); letter-spacing: -.04em; }
+    h2 { font-size: 1rem; margin-top: 0; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr)); gap: 1rem; }
+    .bg-card { background: hsl(var(--card)); border: 1px solid hsl(var(--border)); padding: 1.4rem; }
+    .rounded-xl { border-radius: var(--radius); }
+    .number { font-size: 2rem; font-weight: 650; margin-bottom: 0; }
+    .muted { color: hsl(var(--muted-foreground)); }
+    button { font: inherit; cursor: pointer; padding: .6rem .9rem; border-radius: var(--radius); border: 1px solid hsl(var(--border)); color: hsl(var(--foreground)); background: hsl(var(--card)); }
+    button:hover { background: hsl(var(--accent)); }
+    table { border-collapse: collapse; width: 100%; text-align: start; }
+    th, td { text-align: start; padding: .75rem .5rem; border-bottom: 1px solid hsl(var(--border)); }
+    tbody tr:last-child td { border-bottom: 0; }
+    section + section { margin-top: 1rem; }
+  </style>
+</head>
+<body>
+  <main id="root">
+    <header><h1>仪表板</h1><button type="button" aria-pressed="false">深色模式</button></header>
+    <section class="grid" aria-label="示例统计">
+      <article class="bg-card rounded-xl"><h2 class="muted">在线节点</h2><p class="number">12</p></article>
+      <article class="bg-card rounded-xl"><h2 class="muted">活跃用户</h2><p class="number">248</p></article>
+      <article class="bg-card rounded-xl"><h2 class="muted">本月流量</h2><p class="number">1.8 TB</p></article>
+    </section>
+    <section class="bg-card rounded-xl">
+      <h2>节点状态</h2>
+      <table>
+        <thead><tr><th scope="col">节点</th><th scope="col">协议</th><th scope="col">状态</th></tr></thead>
+        <tbody><tr><td>香港</td><td>MX</td><td>在线</td></tr><tr><td>新加坡</td><td>VLESS</td><td>在线</td></tr></tbody>
+      </table>
+    </section>
+  </main>
+  <script>
+    const toggle = document.querySelector('button');
+    toggle.addEventListener('click', () => {
+      const dark = document.documentElement.classList.toggle('dark');
+      toggle.setAttribute('aria-pressed', String(dark));
+    });
+  </script>
+</body>
+</html>
