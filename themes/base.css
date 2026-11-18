@@ -17,7 +17,7 @@ html[data-admin-theme] .bg-card.rounded-xl {
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  html[data-admin-theme] #root {
+  html[data-admin-theme] #root:not(:empty) {
     animation: xboard-admin-enter var(--admin-enter-duration, 320ms) cubic-bezier(.2, .7, .25, 1);
   }
 
