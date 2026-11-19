@@ -1156,6 +1156,10 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
         "title": "在订阅中展示订阅信息",
         "description": "开启后将会在用户订阅节点时输出订阅信息。"
       },
+      "loon_full_config": {
+        "title": "Loon 通用订阅下发完整配置",
+        "description": "开启后，Loon 可用通用链接导入远程配置。旧节点订阅请在链接上加 format=loon-nodes。"
+      },
       "show_protocol_to_server": {
         "title": "在订阅中线路名称中显示协议名称",
         "description": "开启后订阅线路会附带协议名称（例如: [Hy2]香港）"
@@ -3480,6 +3484,10 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
     }
   },
   "theme": {
+    "admin": {
+      "title": "后台主题",
+      "description": "所有管理员共用同一套主题。可上传 JSON 色板，最大 4 KB。"
+    },
     "title": "主题配置",
     "description": "主题配置，包括主题色、字体大小等。如果你采用前后分离的方式部署V2board，那么主题配置将不会生效。",
     "upload": {

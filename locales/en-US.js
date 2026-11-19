@@ -1246,6 +1246,10 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
         "title": "Show Subscription Info in Nodes",
         "description": "When enabled, subscription information will be output when users subscribe to nodes."
       },
+      "loon_full_config": {
+        "title": "Full Loon configuration from the standard subscription",
+        "description": "When enabled, Loon can use the standard subscription URL as a remote configuration. Add format=loon-nodes for existing node subscriptions."
+      },
       "show_protocol_to_server": {
         "title": "Show Protocol in Node Names",
         "description": "When enabled, subscription lines will include protocol names (e.g., [Hy2]Hong Kong)"
@@ -3465,6 +3469,10 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
     }
   },
   "theme": {
+    "admin": {
+      "title": "Admin themes",
+      "description": "The theme is shared by all administrators. Upload a JSON palette up to 4 KB."
+    },
     "title": "Theme Configuration",
     "description": "Theme configuration, including theme colors, font sizes, etc. If you deploy V2board in a front-end and back-end separated way, theme configuration will not take effect.",
     "upload": {

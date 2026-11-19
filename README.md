@@ -35,7 +35,7 @@
 }
 ```
 
-在 **后台主题** 中选择文件并点击 **校验并保存**。服务器确认主题 ID 唯一、字段与颜色合法后才保存。选中保存的主题，再点击 **应用到所有管理员**。未填写的颜色继承简约主题。完整上传说明见 [Xboard README](https://github.com/Furina-Lee/Xboard/blob/master/README.md#%E7%AE%A1%E7%90%86%E5%90%8E%E5%8F%B0%E4%B8%BB%E9%A2%98)。
+在 **后台主题** 点击 **上传主题** 并选择 JSON 色板。服务器确认主题 ID 唯一、字段与颜色合法后才保存。选中保存的主题，再点击 **应用到所有管理员**。未填写的颜色继承简约主题。完整上传说明见 [Xboard README](https://github.com/Furina-Lee/Xboard/blob/master/README.md#%E7%AE%A1%E7%90%86%E5%90%8E%E5%8F%B0%E4%B8%BB%E9%A2%98)。
 
 ## 入口与发布
 
