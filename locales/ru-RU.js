@@ -1488,7 +1488,7 @@ window.XBOARD_TRANSLATIONS['ru-RU'] = {
         "description": "Формат конфига для Surfboard"
       },
       "loon": {
-        "title": "Шаблон полной конфигурации Loon",
+        "title": "Шаблон Loon",
         "description": "Оставьте {{PROXIES}} на отдельной строке в [Proxy]. Используйте {{PROXY_NAMES}} в группах. Добавьте format=loon-config к ссылке подписки и импортируйте её как удалённую конфигурацию Loon."
       }
     },
