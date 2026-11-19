@@ -1549,6 +1549,10 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
       "surfboard": {
         "title": "Surfboard 配置模版",
         "description": "配额 Surfboard 订阅模版"
+      },
+      "loon": {
+        "title": "Loon 完整配置模板",
+        "description": "在 [Proxy] 段保留独占一行的 {{PROXIES}}。在策略组可用 {{PROXY_NAMES}} 引用生成的节点。给用户订阅链接添加 format=loon-config，再作为远程配置导入 Loon。"
       }
     },
     "email_template": {

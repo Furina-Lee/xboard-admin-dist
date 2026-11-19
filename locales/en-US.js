@@ -1544,6 +1544,10 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
       "surfboard": {
         "title": "Surfboard Template",
         "description": "Configure subscription template format for Surfboard"
+      },
+      "loon": {
+        "title": "Loon full configuration template",
+        "description": "Keep {{PROXIES}} on its own line in [Proxy]. Use {{PROXY_NAMES}} in policy groups. Add format=loon-config to the subscription URL and import it as a remote configuration in Loon."
       }
     },
     "email_template": {
