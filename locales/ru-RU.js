@@ -684,6 +684,7 @@ window.XBOARD_TRANSLATIONS['ru-RU'] = {
     "systemManagement": "Управление системой",
     "systemConfig": "Настройки системы",
     "themeConfig": "Настройки темы",
+    "adminThemeConfig": "Темы панели",
     "noticeManagement": "Управление уведомлениями",
     "pluginManagement": "Управление плагинами",
     "paymentConfig": "Настройки оплаты",

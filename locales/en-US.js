@@ -742,6 +742,7 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
     "systemManagement": "System Management",
     "systemConfig": "System Configuration",
     "themeConfig": "Theme Configuration",
+    "adminThemeConfig": "Admin themes",
     "noticeManagement": "Notice Management",
     "pluginManagement": "Plugin Management",
     "paymentConfig": "Payment Configuration",

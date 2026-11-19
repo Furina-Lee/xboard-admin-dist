@@ -742,6 +742,7 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
     "systemManagement": "系统管理",
     "systemConfig": "系统配置",
     "themeConfig": "主题配置",
+    "adminThemeConfig": "后台主题",
     "pluginManagement": "插件管理",
     "pluginMenuDemo": "插件菜单（演示）",
     "noticeManagement": "公告管理",
