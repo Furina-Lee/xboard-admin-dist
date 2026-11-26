@@ -2912,19 +2912,19 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
       "notes": "备注",
       "notesPlaceholder": "关于此服务器的可选备注",
       "isActive": "启用服务器",
-      "isActiveDescription": "禁用后 xboard-node 将不再使用此服务器。",
+      "isActiveDescription": "禁用后 MX-Websocket-Node 将不再使用此服务器。",
       "cancel": "取消",
       "submit": "提交",
       "update": "更新"
     },
     "token": {
       "title": "服务器 Token",
-      "description": "此 Token 用于 xboard-node 向面板认证，请妥善保管。",
+      "description": "此 Token 用于 MX-Websocket-Node 向面板认证，请妥善保管。",
       "show": "查看 Token",
       "hide": "隐藏 Token",
       "reset": "重置 Token",
       "resetConfirm": "确认重置 Token？",
-      "resetDescription": "旧 Token 将立即失效，xboard-node 需要重新配置新 Token。",
+      "resetDescription": "旧 Token 将立即失效，MX-Websocket-Node 需要重新配置新 Token。",
       "copy": "复制",
       "copied": "Token 已复制到剪贴板",
       "copiedInline": "已复制!",
@@ -2934,8 +2934,8 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
       "createdHint": "Token 已生成，后续可在服务器详情页中查看。"
     },
     "install": {
-      "title": "安装 xboard-node",
-      "description": "在目标服务器上执行此命令，即可用 machine mode 安装 xboard-node 并接入当前服务器记录。",
+      "title": "安装MX-Websocket-Node",
+      "description": "在目标服务器上执行此命令，即可用 machine mode 安装 MX-Websocket-Node 并接入当前服务器记录。",
       "copy": "复制安装命令",
       "copied": "安装命令已复制",
       "copiedInline": "已复制!",

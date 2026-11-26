@@ -2885,19 +2885,19 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
       "notes": "Notes",
       "notesPlaceholder": "Optional notes about this server",
       "isActive": "Enable Server",
-      "isActiveDescription": "Disabled servers will not be used by xboard-node.",
+      "isActiveDescription": "Disabled servers will not be used by MX-Websocket-Node.",
       "cancel": "Cancel",
       "submit": "Submit",
       "update": "Update"
     },
     "token": {
       "title": "Server Token",
-      "description": "This token is used by xboard-node to authenticate with the panel. Keep it safe.",
+      "description": "This token is used by MX-Websocket-Node to authenticate with the panel. Keep it safe.",
       "show": "View Token",
       "hide": "Hide Token",
       "reset": "Reset Token",
       "resetConfirm": "Reset Token?",
-      "resetDescription": "The old token will be invalidated immediately. xboard-node must be reconfigured with the new token.",
+      "resetDescription": "The old token will be invalidated immediately. MX-Websocket-Node must be reconfigured with the new token.",
       "copy": "Copy",
       "copied": "Token copied to clipboard",
       "copiedInline": "Copied!",
@@ -2907,8 +2907,8 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
       "createdHint": "Token generated. You can view it anytime in the server detail page."
     },
     "install": {
-      "title": "Install xboard-node",
-      "description": "Run this command on the target server to install xboard-node in machine mode and connect it to this server record.",
+      "title": "Install MX-Websocket-Node",
+      "description": "Run this command on the target server to install MX-Websocket-Node in machine mode and connect it to this server record.",
       "copy": "Copy install command",
       "copied": "Install command copied",
       "copiedInline": "Copied!",

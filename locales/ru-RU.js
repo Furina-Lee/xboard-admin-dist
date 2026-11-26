@@ -2800,19 +2800,19 @@ window.XBOARD_TRANSLATIONS['ru-RU'] = {
       "notes": "Заметки",
       "notesPlaceholder": "Необязательные заметки о сервере",
       "isActive": "Включить сервер",
-      "isActiveDescription": "Отключённые серверы не используются xboard-node.",
+      "isActiveDescription": "Отключённые серверы не используются MX-Websocket-Node.",
       "cancel": "Отмена",
       "submit": "Сохранить",
       "update": "Обновить"
     },
     "token": {
       "title": "Токен сервера",
-      "description": "Этот токен используется xboard-node для аутентификации. Храните его в безопасности.",
+      "description": "Этот токен используется MX-Websocket-Node для аутентификации. Храните его в безопасности.",
       "show": "Показать токен",
       "hide": "Скрыть токен",
       "reset": "Сбросить токен",
       "resetConfirm": "Сбросить токен?",
-      "resetDescription": "Старый токен будет немедленно аннулирован. xboard-node потребует перенастройки.",
+      "resetDescription": "Старый токен будет немедленно аннулирован. MX-Websocket-Node потребует перенастройки.",
       "copy": "Копировать",
       "copied": "Токен скопирован",
       "copiedInline": "Скопировано!",
@@ -2822,8 +2822,8 @@ window.XBOARD_TRANSLATIONS['ru-RU'] = {
       "createdHint": "Токен создан. Вы можете просмотреть его в любое время на странице сервера."
     },
     "install": {
-      "title": "Установить xboard-node",
-      "description": "Выполните эту команду на целевом сервере, чтобы установить xboard-node в режиме machine mode и подключить его к текущей записи сервера.",
+      "title": "Установить MX-Websocket-Node",
+      "description": "Выполните эту команду на целевом сервере, чтобы установить MX-Websocket-Node в режиме machine mode и подключить его к текущей записи сервера.",
       "copy": "Копировать команду установки",
       "copied": "Команда установки скопирована",
       "copiedInline": "Скопировано!",
